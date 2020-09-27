@@ -1,2 +1,38 @@
-<!--pages/auction/auction.wxml-->
-<text>pages/auction/auction.wxml</text>
+<view class="auction" bindtap="toDetail" data-name="第三场">
+  <text class="title">第三场 贵和详茶道专场</text>
+  <view class="tips">
+    <view class="left">
+      <text>预展中</text>
+    </view>
+    <view class="right">
+      390次围观
+    </view>
+  </view>
+  <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+  <view class="small">
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+  </view>
+</view>
+<view class="auction">
+  <text class="title">第三场 贵和详茶道专场</text>
+  <view class="tips">
+    <view class="left">
+      <text>预展中</text>
+    </view>
+    <view class="right">
+      390次围观
+    </view>
+  </view>
+  <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+  <view class="small">
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+    <image  src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1601176197&di=69af86f5f285618538eb589a7a89de73&src=http://a3.att.hudong.com/14/75/01300000164186121366756803686.jpg"/>
+  </view>
+</view>

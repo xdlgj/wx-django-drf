@@ -1,18 +1,18 @@
-// pages/publish/publish.js
+// pages/auction-detail/auction-detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    images: ['/assets/imgs/homeSel.png', '/assets/imgs/homeSel.png']
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log('options:', options)
   },
 
   /**
@@ -62,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 上传图片
-   */
-  uploadImage: function () {
-    wx.chooseImage({
-      count: 9,
-      sizeType: ['original', 'compressed'],
-      sourceType: ['album', 'camera'],
-      success: (res) => {
-        this.setData({
-          images: [...this.data.images, ...res.tempFilePaths]
-        })
-      },
-    })
   }
 })

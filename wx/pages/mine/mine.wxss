@@ -1,1 +1,69 @@
-/* pages/mine/mine.wxss */
+.top {
+  height: 300rpx;
+  background-color: #81eb86;
+}
+.top .topTop {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+}
+.top .topTop .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top .topTop .left image {
+  width: 96rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.top .topTop .right {
+  padding: 10rpx;
+  background: black;
+  opacity: 0.2;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.top .topTop text {
+  font-weight: bolder;
+}
+.top .topBottom {
+  display: flex;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.top .topBottom .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150rpx;
+  height: 100rpx;
+}
+.top text {
+  color: white;
+  font-size: 30rpx;
+}
+.middle {
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150rpx;
+  height: 100rpx;
+}
+.middle .item image {
+  width: 46rpx;
+}
+.middle .item text {
+  font-size: 30rpx;
+}

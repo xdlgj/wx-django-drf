@@ -62,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  /**
+   * 跳转到拍卖详情页面
+   */
+  toDetail: function(e) {
+    console.log(e.currentTarget.dataset)
+    const {name} = e.currentTarget.dataset
+    //不能跳转到tabBar页面
+    wx.navigateTo({
+      url: '/pages/auction-detail/auction-detail?name=' + name,
+    })
   }
 })

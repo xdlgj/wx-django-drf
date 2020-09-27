@@ -1,1 +1,18 @@
-/* pages/home/home.wxss */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  height: 150rpx;
+}
+.menu .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150rpx;
+}
+.menu .item image {
+  width: 96rpx;
+}
+.menu .item text {
+  font-size: 30rpx;
+}

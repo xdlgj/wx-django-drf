@@ -4,7 +4,8 @@
     "pages/auction/auction",
     "pages/publish/publish",
     "pages/message/message",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/auction-detail/auction-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,32 +14,38 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "assets/imgs/home.png",
-      "selectedIconPath": "assets/imgs/homeSel.png"
-    }, {
-      "pagePath": "pages/auction/auction",
-      "text": "拍卖",
-      "iconPath": "assets/imgs/auction.png",
-      "selectedIconPath": "assets/imgs/auctionSel.png"
-    }, {
-      "pagePath": "pages/publish/publish",
-      "text": "发布",
-      "iconPath": "assets/imgs/publish.png",
-      "selectedIconPath": "assets/imgs/publishSel.png"
-    }, {
-      "pagePath": "pages/message/message",
-      "text": "消息",
-      "iconPath": "assets/imgs/message.png",
-      "selectedIconPath": "assets/imgs/messageSel.png"
-    }, {
-      "pagePath": "pages/mine/mine",
-      "text": "我的",
-      "iconPath": "assets/imgs/mine.png",
-      "selectedIconPath": "assets/imgs/mineSel.png"
-    }],
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/imgs/home.png",
+        "selectedIconPath": "assets/imgs/homeSel.png"
+      },
+      {
+        "pagePath": "pages/auction/auction",
+        "text": "拍卖",
+        "iconPath": "assets/imgs/auction.png",
+        "selectedIconPath": "assets/imgs/auctionSel.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "assets/imgs/publish.png",
+        "selectedIconPath": "assets/imgs/publishSel.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "assets/imgs/message.png",
+        "selectedIconPath": "assets/imgs/messageSel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/imgs/mine.png",
+        "selectedIconPath": "assets/imgs/mineSel.png"
+      }
+    ],
     "color": "#ADB2B8",
     "selectedColor": "#0189FF"
   },

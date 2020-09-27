@@ -1,0 +1,56 @@
+.top {
+  background-color: white;
+  height: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20rpx;
+  .item {
+    display: flex;
+    flex-direction: column;
+    image {
+      width: 96rpx;
+    }
+    text {
+      font-size: 30rpx;
+    }
+  }
+}
+.bottom {
+  background-color: white;
+  .item {
+    display: flex;
+    height: 150rpx;
+    align-items: center;
+    image {
+      width: 96rpx;
+      margin: 0 20rpx;
+    }
+    .content {
+      width: 614rpx;
+      height: 150rpx;
+      border-bottom: 1rpx solid gainsboro;
+      padding: 20rpx 0;
+      box-sizing: border-box;
+      .contentTop {
+        display: flex;
+        justify-content: space-between;
+        .title {
+          font-size: 35rpx;
+          font-weight: bolder;
+        }
+        .time {
+          align-self: center;
+          font-size: 30rpx;
+          color: gray;
+        }
+      }
+      text {
+        margin-top: 10rpx;
+        align-self: center;
+        font-size: 30rpx;
+        color: gray;
+      }  
+    }
+  }
+}

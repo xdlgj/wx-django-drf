@@ -1,2 +1,18 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="menu">
+  <view class="item">
+    <image src="https://s1.ax1x.com/2020/09/27/0FJfyj.png" mode="widthFix" />
+    <text>精品文章</text>
+  </view>
+  <view class="item">
+    <image src="https://s1.ax1x.com/2020/09/27/0FJfyj.png" mode="widthFix"/>
+    <text>小视频</text>
+  </view>
+  <view class="item">
+    <image src="https://s1.ax1x.com/2020/09/27/0FJfyj.png" mode="widthFix"/>
+    <text>名人堂</text>
+  </view>
+  <view class="item">
+    <image src="https://s1.ax1x.com/2020/09/27/0FJfyj.png" mode="widthFix"/>
+    <text>观点说</text>
+  </view>
+</view>

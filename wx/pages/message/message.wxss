@@ -1,1 +1,56 @@
-/* pages/message/message.wxss */
+.top {
+  background-color: white;
+  height: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.top .item {
+  display: flex;
+  flex-direction: column;
+}
+.top .item image {
+  width: 96rpx;
+}
+.top .item text {
+  font-size: 30rpx;
+}
+.bottom {
+  background-color: white;
+}
+.bottom .item {
+  display: flex;
+  height: 150rpx;
+  align-items: center;
+}
+.bottom .item image {
+  width: 96rpx;
+  margin: 0 20rpx;
+}
+.bottom .item .content {
+  width: 614rpx;
+  height: 150rpx;
+  border-bottom: 1rpx solid gainsboro;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+}
+.bottom .item .content .contentTop {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .item .content .contentTop .title {
+  font-size: 35rpx;
+  font-weight: bolder;
+}
+.bottom .item .content .contentTop .time {
+  align-self: center;
+  font-size: 30rpx;
+  color: gray;
+}
+.bottom .item .content text {
+  margin-top: 10rpx;
+  align-self: center;
+  font-size: 30rpx;
+  color: gray;
+}
