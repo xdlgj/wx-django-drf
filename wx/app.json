@@ -5,7 +5,8 @@
     "pages/publish/publish",
     "pages/message/message",
     "pages/mine/mine",
-    "pages/auction-detail/auction-detail"
+    "pages/auction-detail/auction-detail",
+    "pages/auth/auth"
   ],
   "window": {
     "backgroundTextStyle": "light",

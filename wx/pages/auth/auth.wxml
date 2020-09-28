@@ -1,0 +1,32 @@
+<view class="logo">
+  <image src="/assets/imgs/weipai.png" mode="widthFix"></image>
+</view>
+<view class="inputItem">
+  <text>手机</text>
+  <input 
+    placeholder="请填写手机号码"
+    placeholder-style="color: gainsboro"
+    type="number"
+    maxlength="11"
+    bindinput="bindPhoneInput"
+    value="{{phone}}"
+  />
+</view>
+<view class="inputItem">
+  <text>验证码</text>
+  <view class="inputCode">
+    <input 
+      placeholder="请填写短信验证码"
+      placeholder-style="color: gainsboro"
+      placeholder-class="txt"
+      type="number"
+      maxlength="4"
+      bindinput="bindCodeInput"
+      value="{{code}}"
+    />
+    <view class="code" bindtap="onClickCheckCode">获取验证码</view>
+  </view>
+  
+</view>
+
+<button open-type="getUserInfo" bindgetuserinfo="onClickSubmit" style="margin: 80rpx 10rpx; width: 97%">登录｜注册</button>

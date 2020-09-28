@@ -1,8 +1,16 @@
 <view class="top">
   <view class="topTop">
-    <view class="left" bindtap="{{nickName ? null : 'getUserInfo'}}">
+    <view class="left">
       <image mode="widthFix" src="{{avatarUrl || '/assets/imgs/messageSel.png'}}"></image>
-      <text>{{nickName || '登录 ｜ 注册'}}</text>
+      <view class="name">
+        <navigator url='/pages/auth/auth' hover-class="none">
+          <text>登录</text>
+        </navigator>
+        <navigator url='/pages/auth/auth' hover-class="none">
+          <text>注册</text>
+        </navigator>
+      </view>
+      <!-- <text>{{nickName || '登录 ｜ 注册'}}</text> -->
     </view>
     <view class="right">
       <text>查看个人主页</text>

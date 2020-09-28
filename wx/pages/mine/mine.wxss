@@ -19,6 +19,9 @@
   margin-right: 20rpx;
   border-radius: 50%;
 }
+.top .topTop .left .name {
+  display: flex;
+}
 .top .topTop .right {
   padding: 10rpx;
   background: black;

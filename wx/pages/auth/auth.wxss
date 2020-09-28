@@ -1,0 +1,40 @@
+.logo {
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo image {
+  width: 200rpx;
+}
+.inputItem {
+  height: 100rpx;
+  border-bottom: 1rpx solid gainsboro;
+  margin: 0 10rpx;
+  padding: 20rpx;
+}
+.inputItem text {
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+.inputItem .inputCode {
+  display: flex;
+  justify-content: space-between;
+}
+.inputItem .inputCode .code {
+  width: 206rpx;
+  border: 2rpx solid #0189FF;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #0189FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  color: white;
+  background-color: #0189FF;
+  font-size: 32rpx;
+  font-weight: bolder;
+}
