@@ -1,8 +1,11 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.conf import settings
+
 
 class LoginView(APIView):
+    """
+    用户登录
+    """
 
     def post(self, request, *args, **kwargs):
         print(request.data)
